@@ -71,7 +71,7 @@ namespace WebApplication1.DAO
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    SqlCommand cmd = new SqlCommand("Select * From interview_descriptions WHERE interviewee_name LIKE '%@name%;", conn);
+                    SqlCommand cmd = new SqlCommand("Select * From interview_descriptions WHERE interviewee_name LIKE '%@name%';", conn);
                     cmd.Parameters.AddWithValue("@name", name);
 
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -81,7 +81,6 @@ namespace WebApplication1.DAO
                         Interview interview = ConvertReaderToInterview(reader);
                         interviews.Add(interview);
                     }
-
                 }
             }
             catch (Exception ex)

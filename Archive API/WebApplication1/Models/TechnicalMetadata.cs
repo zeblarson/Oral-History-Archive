@@ -11,7 +11,7 @@ namespace WebApplication1.Models
         public string Format { get; set; }
         public decimal FileSize { get; set; }
         public string Codec { get; set; }
-        public TimeSpan InterviewLength { get; set; }
+        public DateTime InterviewLength { get; set; }
 
         public bool IsValid
         {
