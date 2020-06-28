@@ -12,7 +12,8 @@ namespace WebApplication1.Models
         public string InterviewerName { get; set; }
         public string IntervieweeName { get; set; }
         public DateTime DateConducted { get; set; }
-        public bool TranscriptAvailable { get; set; }
+        public int TranscriptAvailableInt { get; set; }
+        public string TranscriptAvailable { get; set; }
         public string Summary { get; set; }
 
         public Interview ()

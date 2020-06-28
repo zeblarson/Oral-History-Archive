@@ -10,8 +10,6 @@ C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
-C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
-C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorTargetAssemblyInfo.cache
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.xml
