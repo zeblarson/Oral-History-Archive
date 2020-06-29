@@ -29,13 +29,24 @@ namespace Archive_Tests
         }
 
         [TestMethod]
-        public void GetList()
+        public void GetListHardCodedPreliminaryValue()
         {
             InterviewSqlDAO interview = new InterviewSqlDAO(connectionString);
 
             IList<Interview> interviews = interview.ListInterviews();
 
             Assert.AreEqual(10, interviews.Count);
+        }
+        [DataTestMethod]
+        [DataRow("Skinner", 9)]
+        [TestMethod]
+        public void SearchInterviewsByName(string name, int id)
+        {
+            InterviewSqlDAO interview = new InterviewSqlDAO(connectionString);
+
+            IList<Interview> names = interview.GetInterviewBySubjectName(name);
+
+            Assert.AreEqual(9, id);
         }
     }
 }
