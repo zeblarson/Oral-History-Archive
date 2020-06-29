@@ -16,12 +16,11 @@ namespace WebApplication1.DAO
         {
             connectionString = databaseConnectionString;
         }
-
         private Interview ConvertReaderToInterview(SqlDataReader reader)
         {
             Interview interview = new Interview();
             interview.DateConducted = Convert.ToDateTime(reader["date_conducted"]);
-            interview.Id = Convert.ToInt32(reader["id"]);
+            interview.Id = Convert.ToInt32(reader["interview_id"]);
             interview.IntervieweeName = Convert.ToString(reader["interviewee_name"]);
             interview.InterviewerName = Convert.ToString(reader["interviewer_name"]);
             interview.Title = Convert.ToString(reader["title"]);

@@ -16,3 +16,12 @@ C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.dll
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.pdb
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CopyComplete
