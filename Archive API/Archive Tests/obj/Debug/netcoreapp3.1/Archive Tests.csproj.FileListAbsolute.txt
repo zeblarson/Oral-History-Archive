@@ -104,3 +104,9 @@ C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\o
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\obj\Debug\netcoreapp3.1\Archive Tests.dll
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\obj\Debug\netcoreapp3.1\Archive Tests.pdb
 C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\obj\Debug\netcoreapp3.1\Archive Tests.genruntimeconfig.cache
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\bin\Debug\netcoreapp3.1\Archive Tests.dll.config
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Zeb Larson\Desktop\Code for History Archive\Archive API\Archive Tests\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.TransactSql.ScriptDom.dll
