@@ -70,7 +70,8 @@ namespace WebApplication1.DAO
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    SqlCommand cmd = new SqlCommand("Select * From interview_descriptions WHERE interviewee_name LIKE '%@name%';", conn);
+                    string sql = "Select * From interview_descriptions WHERE interviewee_name LIKE '%@name%'";
+                    SqlCommand cmd = new SqlCommand(sql, conn);
                     cmd.Parameters.AddWithValue("@name", name);
 
                     SqlDataReader reader = cmd.ExecuteReader();

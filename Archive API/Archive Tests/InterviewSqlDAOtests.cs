@@ -38,17 +38,17 @@ namespace Archive_Tests
             Assert.AreEqual(10, interviews.Count);
         }
         [DataTestMethod]
-        [DataRow("Skinner", 9)]
+        [DataRow("Skinner", 1)]
         [TestMethod]
         
         //todo: revise, code not reading correctly. Compare against capstone reader.
-        public void SearchInterviewsByName(string name, int id)
+        public void SearchInterviewsByName(string name, int count)
         {
             InterviewSqlDAO interview = new InterviewSqlDAO(connectionString);
 
             IList<Interview> names = interview.GetInterviewBySubjectName(name);
 
-            Assert.AreEqual(9, id);
+            Assert.AreEqual(count, names.Count);
         }
     }
 }
