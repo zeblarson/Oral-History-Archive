@@ -1,9 +1,53 @@
-h1 {
-    display: flex;
-    justify-content: center;
+img#Harvard {
+    max-width: 200px;
+    max-height: 200px;
 }
 
-img#Harvard {
-    max-width: 300px;
-    max-height: 300px;
+body {
+    background-color: cadetblue;
 }
+
+main {
+    display: grid;
+    grid-template-areas: "header"
+                         "harvard" 
+                         "sidebar"
+                         "history"
+                         "contemporarysignificance"
+}
+
+#sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+}
+
+#history {
+    grid-area: history;
+}
+
+#contemporarysignificance {
+    grid-area: contemporarysignificance;
+}
+
+#header {
+    grid-area: header;
+}
+
+#harvard {
+    grid-area: havard;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 20px;
+    column-gap: 50px;
+    grid-template-areas: 
+                         "header harvard"
+                         "introduction harvard"
+                         "history sidebar"
+                         "contemporarysignificance sidebar";
+    align-items: center;
+}
+
