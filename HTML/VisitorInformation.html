@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style\VisitorInformationStylesheet.css" rel="stylesheet"/>
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <h2>Submit Your Information</h2>
+        <p>
+            This website's purpose is to collect oral histories and interviews from those who were involved
+            in the global anti-apartheid movement. If you participated in boycotts, support groups, protests,
+            or anything else, we'd like to hear from you. Please submit some information about yourself in the 
+            form below so that we can contact you to set up a potential interview.
+        </p>
+        <p>
+            By agreeing to an interview, you consent to have the interview be recorded and be publicly available. 
+            Participation in the interview is voluntary and you can withdraw at any time should you not wish to 
+            proceed. 
+        </p>
+        <!-- URL needs to be inserted once created. -->
+        <form action="placeholderURL" target="_blank" method="post">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+            <label for="email">E-mail address:</label><br>
+            <input type="text" id="email" name="email" placeholder="E-Mail Address"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer id="disclaimer">
+        <p>
+            Disclaimer: This website is the work of Zeb Larson. At present, it is only a test website and should 
+            not be cited or referenced without the express permission of the author. It is under development
+            and liable to change.
+        </p>
+    </footer>
 </body>
 </html>
