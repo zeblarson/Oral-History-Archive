@@ -2,14 +2,17 @@ body {
     background-color: cadetblue;
 }
 
-a {
-    padding: 10px;
-    color: white;
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
-#header {
+table, th, td {
+    border: 1px solid black;
+  }
+
+  #header {
     display: flex;
     justify-content: space-between;
     background-color: sienna;
 }
-

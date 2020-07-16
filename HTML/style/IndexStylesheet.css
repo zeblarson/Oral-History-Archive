@@ -1,22 +1,10 @@
 img#Harvard {
-    max-width: 200px;
-    max-height: 200px;
-    padding-top: 10px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 body {
     background-color: cadetblue;
-}
-
-main {
-    display: grid;
-    grid-template-areas: "header"
-                         "introduction"
-                         "harvard" 
-                         "sidebar"
-                         "history"
-                         "contemporarysignificance"
-                         "disclaimer"
 }
 
 h2 {
@@ -29,37 +17,9 @@ h1 {
     justify-content: center;
 }
 
-#sidebar {
-    grid-area: sidebar;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    align-content: space-between;
-}
-
 a {
     padding: 10px;
-}
-
-#disclaimer {
-    grid-area: disclaimer;
-}
-
-#history {
-    grid-area: history;
-}
-
-#introduction {
-    grid-area: introduction;
-}
-
-#contemporarysignificance {
-    grid-area: contemporarysignificance;
-}
-
-#header {
-    grid-area: header;
+    color: white;
 }
 
 img#ChaseProtest {
@@ -69,19 +29,10 @@ img#ChaseProtest {
     justify-items: center;
 }
 
-#harvard {
-    grid-area: havard;
-}
 
-#grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: 
-                         "header harvard"
-                         "introduction sidebar"
-                         "history sidebar"
-                         "contemporarysignificance sidebar"
-                         ;
-    align-items: center;
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: sienna;
 }
 
