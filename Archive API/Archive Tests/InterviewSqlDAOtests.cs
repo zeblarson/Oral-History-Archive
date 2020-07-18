@@ -40,8 +40,6 @@ namespace Archive_Tests
         [DataTestMethod]
         [DataRow("Skinner", 1)]
         [TestMethod]
-        
-        //todo: revise, code not reading correctly. Compare against capstone reader.
         public void SearchInterviewsByName(string name, int count)
         {
             InterviewSqlDAO interview = new InterviewSqlDAO(connectionString);
@@ -49,6 +47,15 @@ namespace Archive_Tests
             IList<Interview> names = interview.GetInterviewBySubjectName(name);
 
             Assert.AreEqual(count, names.Count);
+        }
+        [DataTestMethod]
+        [DataRow("Apartheid", 5)]
+        [TestMethod]
+        public void SearchInterviewsByKeyword(string keyword, int count)
+        {
+            InterviewSqlDAO interview = new InterviewSqlDAO(connectionString);
+            IList<Interview> keywords = interview.SearchInterviewByKeyword(keyword);
+            Assert.AreEqual(count, keywords.Count);
         }
     }
 }

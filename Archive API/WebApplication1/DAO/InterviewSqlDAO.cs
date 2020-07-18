@@ -89,5 +89,33 @@ namespace WebApplication1.DAO
             }
             return interviews;
         }
+        public List<Interview> SearchInterviewByKeyword (string keyword)
+        {
+            List<Interview> interviews = new List<Interview>();
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sql = "Select * From interview_descriptions WHERE interviewee_name LIKE '%'+@keyword+'%' " +
+                        "OR summary LIKE '%'+@keyword+'%'";
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@keyword", keyword);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        Interview interview = ConvertReaderToInterview(reader);
+                        interviews.Add(interview);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return interviews;
+        }
     }
 }
