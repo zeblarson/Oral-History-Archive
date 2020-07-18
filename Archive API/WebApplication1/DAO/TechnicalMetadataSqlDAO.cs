@@ -36,10 +36,11 @@ namespace WebApplication1.DAO
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
+                    string sqlSearch = " SELECT id.interviewee_name, im.id, im.file_size, im.codec, im.interview_length, " +
+                        "im.recording_format FROM interview_descriptions id JOIN interview_metadata im ON id.interview_id = im.id " +
+                        "WHERE id.interviewee_name LIKE '%'+@name+'%'";
                     conn.Open();
-                    SqlCommand cmd = new SqlCommand("  SELECT id.interviewee_name, im.id, im.file_size, im.codec, im.interview_length, im.recording_format " +
-                        "FROM interview_descriptions id JOIN interview_metadata im ON id.interview_id = im.id " +
-                        "WHERE id.interviewee_name LIKE '%@name%'; ", conn);
+                    SqlCommand cmd = new SqlCommand(sqlSearch, conn) ;
                     cmd.Parameters.AddWithValue("@name", name);
 
                     SqlDataReader reader = cmd.ExecuteReader();
