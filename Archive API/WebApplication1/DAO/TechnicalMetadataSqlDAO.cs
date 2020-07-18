@@ -24,7 +24,7 @@ namespace WebApplication1.DAO
             technical.FileSize = Convert.ToDecimal(reader["file_size"]);
             technical.Format = Convert.ToString(reader["recording_format"]);
             technical.Id = Convert.ToInt32(reader["id"]);
-            technical.InterviewLength = Convert.ToDateTime(reader["interview_length"]);
+            technical.InterviewLength = Convert.ToString(reader["interview_length"]);
 
             return technical;
         }

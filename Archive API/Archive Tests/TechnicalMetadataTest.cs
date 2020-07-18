@@ -37,7 +37,14 @@ namespace Archive_Tests
 
             IList<TechnicalMetadata> testFormat = codec.GetTechnicalInfoByIntervieweeName(name);
 
-            Assert.AreEqual(testFormat, format);
+            TechnicalMetadata tech = new TechnicalMetadata();
+
+            for (int i = 0; i < testFormat.Count; i++)
+            {
+                tech = testFormat[i];
+            }
+
+            Assert.AreEqual(tech.Codec, format);
         }
     }
 }
